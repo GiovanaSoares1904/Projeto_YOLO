@@ -2,7 +2,7 @@
 
 # Descrição do pipeline
 
-Utilizando a arquitetura YOLO versão 11, foi criado um modelo de visão computacional para detecção de rostos dos participantes do grupo e outras pessoas, como famosos atores, pessoas importantes do meio artístico, utilizando biblioteca ultralytics para realizar a maior parte do treinamento do modelo com dataset customizado, pegando imagens também da plataforma Kaggle datasets. 
+Utilizando a arquitetura YOLO versão 8, foi criado um modelo de visão computacional para detecção de rostos dos participantes do grupo e outras pessoas, como famosos atores, pessoas importantes do meio artístico, utilizando biblioteca ultralytics para realizar a maior parte do treinamento do modelo com dataset customizado, pegando imagens também da plataforma Kaggle datasets. 
 
 # Arquitetura da rede utilizada
 
@@ -10,11 +10,11 @@ Utilizando arquitetura YOLOv11, processando o dataset de imagens contendo arquvo
 
 Para a arquitetura YOLO personalizada, temos um arquivo yaml, onde contém as classes das imagens utilizadas no modelo, como Alec_Baldwin, Barbara, Vanessa e Giovana, para que o modelo possa indentificar cada participante, fazendo com que esta arquitetura identifique faces. 
 
-Na implementação do modelo, utilizando arquitetura yolo v11, contém a biblioteca ultralytics, open cv, IPython.display.
+Na implementação do modelo, utilizando arquitetura yolo v8, contém a biblioteca ultralytics, open cv, IPython.display.
 
 # Estratégia de pré-processamento e treino
 
-Com o dataset personalisado, utilizando a biblioteca from ultralytics import YOLO e from IPython.display import display, Image, contendo o prccesso de treinamento do dataset com as três pastas chamadas test, train e valid para a identificação dos rostos dos participantes e celebridades com a versão YOLOV11.  
+Com o dataset personalisado, utilizando a biblioteca from ultralytics import YOLO e from IPython.display import display, Image, contendo o prccesso de treinamento do dataset com as três pastas chamadas test, train e valid para a identificação dos rostos dos participantes e celebridades com a versão YOLOV8.  
 
 # Resultados (acurácia, matriz de confusão, etc.)
 
